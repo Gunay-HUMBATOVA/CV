@@ -1,77 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    list-style: none;
-   font-family:'Rokkitt', serif;
 }
 
 body{
-   background:#222222;
+   background:#0e0e0e;
 }
 
-
-.allcv{
+.allcv {
    width: 800px;
    background: #f3f3f3;
-   margin: 15px auto;
-   border: 10px solid black;
+   margin: 0 auto;
+   border: 10px solid #181818;
 }
 
-img{
-   float: left;
-   padding-top: 12px;
-   margin-left: 3px;
-}
-
-
-
-.cntct{
-   float: right;
-   padding:27px 25px;
-}
-
-.head{
-   border-bottom:3px solid #d7a355;
+.head {
+   border-bottom:3px solid #d29b4b;
    padding-left: 5px;
    background-color: #ededed;
    height: 130px;
 }
 
-.left{
+.contact {
+   float: right;
+   padding:27px 20px;
+   color: #89838b;
+}
+
+li {
+   width: 20%;
+   margin:0px 30px 0px;
+   padding-bottom: 5px;
+   text-align: left;
+   line-height: 15px;
+}
+
+.photo {
+   float: left;
+   padding-top: 12px;
+   margin-left: 3px;
+   width: 108px
+}
+
+.name {
+   color: #20242e;
+   padding:27px 30px;
+   padding-bottom: 0;
+   font-family:'Rokkitt', serif;
+   font-weight: bolder;
+}
+
+.jobtitle {
+  color: #5a504e;
+  padding: 0;
+  font-size: 24px;
+  font-family:'Rokkitt', serif;
+  font-weight: normal;
+}
+
+.border1 {
+   border-bottom: 2px solid lightgray;
+   margin: 20px;
+   padding-bottom: 15px;
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+.left {
   background: #f3f3f3;
   width: 250px;
   padding:15px;
-  padding-top: 0px;
+  padding-top: 0;
   font-style: italic;
-  color: #d7a355;
+  color:#d8a350;
   font-size: 24px;
-  font-weight: 30;
+  font-family:'Rokkitt', serif;
+  font-weight: normal;
 }
 
-.right{
-background-color: #f3f3f3;
-width: 500px;
+.right {
+   background-color: #f3f3f3;
+   width: 500px;
+   font-family: 'Roboto', sans-serif;
+   color: #89838b;
 }
 
-.border1{
-   border-bottom: 2px solid lightgray;
-   margin: 20px;
-   padding-bottom: 15px;
-   display: flex;
-   flex-wrap: nowrap;}
-
-.border2{
-   border-bottom: 2px solid lightgray;
-   margin: 20px;
-   padding-bottom: 15px;
-   display: flex;
-   flex-wrap: nowrap;
-}
-
-.border3{
+.border2 {
    border-bottom: 2px solid lightgray;
    margin: 20px;
    padding-bottom: 15px;
@@ -79,7 +99,7 @@ width: 500px;
    flex-wrap: nowrap;
 }
 
-.border4{
+.border3 {
    border-bottom: 2px solid lightgray;
    margin: 20px;
    padding-bottom: 15px;
@@ -87,36 +107,41 @@ width: 500px;
    flex-wrap: nowrap;
 }
 
-.jobtitle{
-  color: rgba(0, 0, 0, 0.795);
-  padding:27px 30px;
-  padding-top: 0px;
+.allskills {
+   display: flex;
+   flex-wrap: nowrap;
 }
 
-.name{
-   color: rgba(0, 0, 0, 0.911);
-   padding:27px 30px;
-   padding-bottom: 0px;
+.skills1 {
+   padding: 0px;
+   padding-right: 30px;
 }
 
-h5{
+.skills2 {
+   padding: 0px;
+   padding-right: 30px;
+}
+
+.skills3 {
+   padding: 0px;
+   padding-right: 30px;
+}
+
+.border4 {
+   border-bottom: 2px solid lightgray;
+   margin: 20px;
+   padding-bottom: 15px;
+   display: flex;
+   flex-wrap: nowrap;
+}
+
+h3 {
+   color:#5a504e;
+   font-family:'Rokkitt', serif;
+   font-weight: 300;
+}
+
+h6 {
    font-style: italic;
    color: rgba(0, 0, 0, 0.63);
-}
-
-h3{
-   color: rgb(19, 18, 18);
-   }
-
-.skills {
-   display: flex;
-   flex-wrap: nowrap;
-}
-
-li{
-   width: 20%;
-   margin:0px 30px 0px 0px;
-   padding-bottom: 0px;
-   text-align: left;
-   line-height: 15px;
 }
